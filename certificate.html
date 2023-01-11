@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand text-danger"><b>
+                    <span class="fas fa-graduation-cap"></span>
+                    Eduport</b></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="nav">
+                <b style="margin-left: auto;">
+                    <ul class="navbar-nav">
+                        <li class="nav-item d-md-none d-lg-block">
+                            <a href="index.html" class="nav-link">
+                                <span class="fas fa-home"></span>
+                                Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="bu" data-bs-toggle="dropdown">
+                                <span class="fas fa-file"></span>
+                                Pages</a>
+                            <ul class="dropdown-menu dropdown-menu-light shadow border-0 text-capitalize">
+                                <li>
+                                    <a href="index.html#banner" class="dropdown-item">Hero Banner</a>
+                                    <a href="index.html#popCorsese" class="dropdown-item">Popular Courses</a>
+                                    <a href="index.html#treand" class="dropdown-item">Trending Courses</a>
+                                    <a href="index.html#reviews" class="dropdown-item">Reviews</a>
+                                    <a href="index.html#footer" class="dropdown-item">About us</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="bu" data-bs-toggle="dropdown">
+                                <span class="fas fa-user"></span>
+                                Account
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-light shadow border-0 text-capitalize">
+                                <li>
+                                    <a href="#" class="dropdown-item ">
+                                        <span class="fas fa-user-tie"></span>
+                                        Instractor
+                                    </a>
+                                    <a href="#" class="dropdown-item ">
+                                        <span class="fas fa-user-graduate"></span>
+                                        Student
+                                    </a>
+                                    <a href="#" class="dropdown-item ">
+                                        <span class="fas fa-user-cog"></span>
+                                        Admin
+                                    </a>
+                                    <hr class="dropdown-divider ">
+                                    <a href="#" class="dropdown-item ">
+                                        <span class="fas fa-edit"></span>
+                                        Edit Profile
+                                    </a>
+                                    <a href="#" class="dropdown-item ">
+                                        <span class="fas fa-cog"></span>
+                                        Settings
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="bu" data-bs-toggle="dropdown">
+                                <span class="fas fa-clipboard-check "></span>
+                                Course</a>
+                            <ul class="dropdown-menu dropdown-menu-light shadow border-0 text-capitalize">
+                                <li>
+                                    <a href="index.html#treand" class="dropdown-item">
+                                        Market research
+                                    </a>
+                                    <a href="index.html#treand" class="dropdown-item">
+                                        Digital Marketing
+                                    </a>
+                                    <a href="index.html#treand" class="dropdown-item">
+                                        Social Media MarKeting
+                                    </a>
+                                    <a href="index.html#treand" class="dropdown-item">
+                                        SEO
+                                    </a>
+                                    <a href="index.html#treand" class="dropdown-item">
+                                        Business Marketing
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </b>
+                <form class="d-flex position-relative flex-nowrap border rounded-2 ms-sm-5">
+                    <input type="text" placeholder="Search" class="form-control pe-3 border-0">
+                    <button class="btn end-0 border-0 position-absolute">
+                        <span class="fas fa-search"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- form -->
+    <div class="container mb-5 rounded-3 d-flex justify-content-center" >
+        <div class="w-50 p-5" id="formcerti">
+            <label for="name" class="form-label text-seborder-secondary">
+                <b>Name : </b>
+            </label>
+            <input type="text" id="nameInput" class="form-control  border border-2 border-secondary">
+
+            <label for="name" class="form-label text-seborder-secondary mt-4">
+                <b>Select Course : </b>
+            </label>
+            <br>
+            <select name="courses" class="form-select border border-2 border-secondary text-seborder-secondaryr" id="courseInput">
+                <option value="HTML"> Html</option>
+                <option value="CSS"> CSS</option>
+                <option value="JavaScript"> Java Script</option>
+                <option value="Bootstrap"> Bootstrap</option>
+            </select>
+
+            <div class="mt-5 text-center">
+                <button class="btn btn-danger" onclick="certificate()"><b>Generate Certificate</b></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- certificate -->
+    <div class="container border border-2 border-secondary rounded text-center p-5" id="certificate">
+        <b class=" text-danger fs-4">
+            <span class="fas fa-graduation-cap"></span>
+            Eduport
+        </b>
+
+        <div class="text-uppercase mt-5 text-secondary">
+            <b class="fs-2">Certificate of completion</b>
+        </div>
+        
+        <div class="mt-5">
+            <b class="fs-6">This Certifies That</b>
+        </div>
+        
+        <div class="text-uppercase mt-4 text-danger">
+            <b class="fs-4" id="name">Your Name</b>
+        </div>
+        
+        <div class="mt-4">
+            <b class="fs-6">has completed necessary courses of study and passed <br> the Eduport's <b id="course" class="text-danger">Course</b> exams and is hereby declared a </b>
+        </div>
+        
+        <div class="text-capitalize mt-5 text-secondary">
+            <b class="fs-3" id="developText">Certified Python Developer</b>
+        </div>
+
+        <div class="mt-5">
+            <b class="fs-6">with fundamental knoledge of programming using <b id="course2" class="text-danger">course</b></b>
+        </div>
+
+        <div class="mt-5">
+            <b class="fs-6">Issued at <b id="date" class="text-secondary">Date</b></b>
+        </div>
+        <div class="mt-2">
+            <b class="fs-6">Issued by <b class="text-danger">Eduport</b></b>
+        </div>
+    </div>
+
+    <!-- download certificate -->
+    <div class="text-center mt-5 mb-5" id="btnCerti">
+        <button class="btn btn-danger"><b>Download Certificate</b></button>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid mt-0 pb-3 pt-5">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md">
+                    <div class="mb-4">
+                        <a href="index.html" class="navbar-brand text-danger">
+                            <h3>
+                                <span class="fas fa-graduation-cap"></span>
+                                <b>Eduport</b>
+                            </h3>
+                        </a>
+                    </div>
+                    <b class="text-secondary">Eduport education theme, built specifically for the education centers
+                        which is dedicated to teaching and involve learners.</b>
+
+                    <ul class="mt-3 g-4 list-inline">
+                        <li class="list-inline-item"><a href="#"><span class="fab fa-facebook fs-3 text-dark"></span></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#"><span class="fab fa-instagram fs-3 text-dark"></span></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#"><span class="fab fa-twitter fs-3 text-dark"></span></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#"><span class="fab fa-linkedin-in fs-3 text-dark"></span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5><b>Company</b></h5>
+                    <b>
+                        <ul class="flex-column nav">
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> About us </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Contact us </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Blogs </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Career </a>
+                        </ul>
+                    </b>
+                </div>
+                <div class="col">
+                    <h5><b>Teaching</b></h5>
+                    <b>
+                        <ul class="flex-column nav">
+                            <a href="index.html#becomeTeacher" class="text-decoration-none text-secondary mt-3"> Become a teacher </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> How to guide </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Terms & Conditions </a>
+                        </ul>
+                    </b>
+                </div>
+                <div class="col-xl">
+                    <h5><b>Contact</b></h5>
+                    <b>
+                        <ul class="flex-column nav">
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Toll free : +1234 567 890 </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Email : example@gmail.com </a>
+                            <div class="text-center m-3">
+                                <a href="#">
+                                    <img src="./images/google-play.svg" width="110px" alt="google-play">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/app-store.svg" width="110px" alt="app-store">
+                                </a>
+                            </div>
+                        </ul>
+                    </b>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="mt-3 text-center">
+                <p>Copyrights ©2022 Eduport. All rights reserved.</p>
+                <div>
+                    <a href="#" class="text-decoration-none ">
+                        Terms of use</a>
+                    <a href="#" class="text-decoration-none ms-3">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

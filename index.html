@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduport</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand text-danger"><b>
+                    <span class="fas fa-graduation-cap"></span>
+                    Eduport</b></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="nav">
+                <b style="margin-left: auto;">
+                    <ul class="navbar-nav">
+                        <li class="nav-item d-md-none d-lg-block">
+                            <a href="index.html" class="nav-link">
+                                <span class="fas fa-home"></span>
+                                Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="bu" data-bs-toggle="dropdown">
+                                <span class="fas fa-file"></span>
+                                Pages</a>
+                            <ul class="dropdown-menu dropdown-menu-light shadow border-0 text-capitalize">
+                                <li>
+                                    <a href="index.html#banner" class="dropdown-item">Hero Banner</a>
+                                    <a href="index.html#popCorsese" class="dropdown-item">Popular Courses</a>
+                                    <a href="index.html#treand" class="dropdown-item">Trending Courses</a>
+                                    <a href="index.html#reviews" class="dropdown-item">Reviews</a>
+                                    <a href="index.html#footer" class="dropdown-item">About us</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="bu" data-bs-toggle="dropdown">
+                                <span class="fas fa-user"></span>
+                                Account
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-light shadow border-0 text-capitalize">
+                                <li>
+                                    <a href="#" class="dropdown-item ">
+                                        <span class="fas fa-user-tie"></span>
+                                        Instractor
+                                    </a>
+                                    <a href="#" class="dropdown-item ">
+                                        <span class="fas fa-user-graduate"></span>
+                                        Student
+                                    </a>
+                                    <a href="#" class="dropdown-item ">
+                                        <span class="fas fa-user-cog"></span>
+                                        Admin
+                                    </a>
+                                    <hr class="dropdown-divider ">
+                                    <a href="#" class="dropdown-item ">
+                                        <span class="fas fa-edit"></span>
+                                        Edit Profile
+                                    </a>
+                                    <a href="#" class="dropdown-item ">
+                                        <span class="fas fa-cog"></span>
+                                        Settings
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="bu" data-bs-toggle="dropdown">
+                                <span class="fas fa-clipboard-check "></span>
+                                Course</a>
+                            <ul class="dropdown-menu dropdown-menu-light shadow border-0 text-capitalize">
+                                <li>
+                                    <a href="index.html#treand" class="dropdown-item">
+                                        Market research
+                                    </a>
+                                    <a href="index.html#treand" class="dropdown-item">
+                                        Digital Marketing
+                                    </a>
+                                    <a href="index.html#treand" class="dropdown-item">
+                                        Social Media MarKeting
+                                    </a>
+                                    <a href="index.html#treand" class="dropdown-item">
+                                        SEO
+                                    </a>
+                                    <a href="index.html#treand" class="dropdown-item">
+                                        Business Marketing
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </b>
+                <form class="d-flex position-relative flex-nowrap border rounded-2 ms-sm-5">
+                    <input type="text" placeholder="Search" class="form-control pe-3 border-0">
+                    <button class="btn end-0 border-0 position-absolute">
+                        <span class="fas fa-search"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="container" id="banner">
+        <div class="row">
+            <div class="col-lg-6" id="lDiv">
+                <div>
+                    <h1>
+                        <b>
+                            Limitless learning at your fingertips
+                        </b>
+                    </h1>
+                    <h5 class="text-secondary mt-4"><b>Online learning and teaching marketplace with 5K+ courses & 10M
+                            students. Taught by experts to help you acquire new skills.</b></h5>
+
+                    <ul class="mt-4 list-inline" style="text-align: center;">
+                        <li class="list-inline-item ">
+                            <i class="fas fa-check-circle"></i>
+                            <b class="text-secondary ">Learn with experts</b>
+                        </li>
+                        <li class="list-inline-item ms-5">
+                            <i class="fas fa-check-circle"></i>
+                            <b class="text-secondary ">Get certificate</b>
+                        </li>
+                    </ul>
+
+                    <div style="text-align: center;" class="mt-5">
+                        <a href="#" class="btn btn-danger-soft"><b>Get Started</b></a>
+                    </div>
+
+                    <div class="text-success position-absolute">
+                        <span class="fas fa-certificate" style="font-size: 35px;"></span>
+                    </div>
+                    <div class="text-primary top-0 mt-5 me-5 position-absolute">
+                        <span class="fas fa-star" style="font-size: 25px;"></span>
+                    </div>
+                    <div class="text-info top-0 end-0 mt-4 position-absolute">
+                        <span class="fas fa-star-of-life" style="font-size: 25px;"></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 p-4" id="imgDiv">
+                <div class="bg-danger shadow" id="rDiv">
+                    <img src="./images/kindpng_2190246.png" alt="" width="auto" height="500px">
+                </div>
+                <div class="bg-warning p-3 rounded-2 shadow top-50 start-0 position-absolute">
+                    <img src="./images/figma.svg" alt="">
+                </div>
+                <div class="bg-info p-3 rounded-2 shadow top-50 end-0 mt-5 position-absolute">
+                    <img src="./images/angular.svg" alt="">
+                </div>
+                <div class="bg-primary p-3 rounded-2 shadow top-0 end-0 mt-5 me-sm-5 position-absolute">
+                    <img src="./images/science.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- counter -->
+    <div class="container mt-5 mb-5">
+        <div class="row g-4">
+            <div class="col-xl-3 col-sm-6">
+                <div
+                    class="d-flex justify-content-center align-items-center p-4 bg-warning bg-opacity-10 border-warning border rounded-3 shadow">
+                    <span class="fas fa-tv display-4 text-warning"></span>
+                    <div class="ms-4">
+                        <h5 class="mb-0"><b>10K</b></h5>
+                        <b>Online Course</b>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div
+                    class="d-flex justify-content-center align-items-center p-4 bg-danger bg-opacity-10 border border-danger rounded-3 shadow">
+                    <span class="fas fa-user-tie display-4 text-danger"></span>
+                    <div class="ms-4">
+                        <h5 class="mb-0"><b>200+</b></h5>
+                        <b>Expert Tutors</b>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div
+                    class="d-flex justify-content-center align-items-center p-4 bg-secondary bg-opacity-10 border border-secondary rounded-3 shadow">
+                    <span class="fas fa-user-graduate display-4 text-secondary"></span>
+                    <div class="ms-4">
+                        <h5 class="mb-0"><b>60K+</b></h5>
+                        <b>Online Students</b>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div
+                    class="d-flex justify-content-center align-items-center p-4 bg-info bg-opacity-10 border border-info rounded-3 shadow">
+                    <span class="fas fa-check-circle display-4 text-info"></span>
+                    <div class="ms-4">
+                        <h5 class="mb-0"><b>6K+</b></h5>
+                        <b>Certified Courses</b>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popular Courses -->
+    <div class="container mb-5" id="popCorsese">
+        <div class="text-center mb-3">
+            <h2 class="fs-1">Most Popular Courses</h2>
+            <b>Choose from hundreds of courses from specialist organizations</b>
+        </div>
+
+        <ul class="nav nav-pills justify-content-center bg-primary bg-opacity-10 p-2 shadow rounded-2">
+            <li class="nav-item">
+                <a href="#link1" class="nav-link active" data-bs-toggle="tab">Graphic Design</a>
+            </li>
+            <li class="nav-item">
+                <a href="#link2" class="nav-link" data-bs-toggle="tab">Web Desing</a>
+            </li>
+            <li class="nav-item">
+                <a href="#link3" class="nav-link" data-bs-toggle="tab">Development</a>
+            </li>
+        </ul>
+
+        <div class="tab-content mt-4">
+            <div class="tab-pane active" id="link1">
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card shadow h-100">
+                            <img src="./images/courses/08.jpg" alt="Course" class="card-img-top">
+
+                            <div class="card-body">
+                                <div class="justify-content-between d-flex mb-2">
+                                    <div class="badge bg-primary bg-opacity-10 text-primary">All Level</div>
+                                    <span class="far fa-heart " onclick="like(this)"></span>
+                                </div>
+
+                                <h5><a href="#" class="text-decoration-none text-black">Sketch from A to Z: for app
+                                        designer</a></h5>
+                                <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-inline text-warning">
+                                    <li class="list-inline-item">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="far fa-star-half"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-footer d-flex bg-transparent justify-content-between">
+                                <div>
+                                    <span class="fas fa-clock"></span>
+                                    12h 56m
+                                </div>
+                                <div>
+                                    <span class="fas fa-table"></span>
+                                    12 lectures
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card shadow h-100">
+                            <img src="./images/courses/02.jpg" alt="Course" class="card-img-top">
+
+                            <div class="card-body">
+                                <div class="justify-content-between d-flex mb-2">
+                                    <div class="badge bg-primary bg-opacity-10 text-primary">All Level</div>
+                                    <span class="far fa-heart " onclick="like(this)"></span>
+                                </div>
+
+                                <h5><a href="#" class="text-decoration-none text-black">Graphic Design Masterclass</a>
+                                </h5>
+                                <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-inline text-warning">
+                                    <li class="list-inline-item">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="far fa-star"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-footer d-flex bg-transparent justify-content-between">
+                                <div>
+                                    <span class="fas fa-clock"></span>
+                                    9h 56m
+                                </div>
+                                <div>
+                                    <span class="fas fa-table"></span>
+                                    10 lectures
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card shadow h-100">
+                            <img src="./images/courses/03.jpg" alt="Course" class="card-img-top">
+
+                            <div class="card-body">
+                                <div class="justify-content-between d-flex mb-2">
+                                    <div class="badge bg-success bg-opacity-10 text-success">Beginner</div>
+                                    <span class="far fa-heart " onclick="like(this)"></span>
+                                </div>
+
+                                <h5><a href="#" class="text-decoration-none text-black">Create a Design System in
+                                        Figma</a></h5>
+                                <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-inline text-warning">
+                                    <li class="list-inline-item">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-footer d-flex bg-transparent justify-content-between">
+                                <div>
+                                    <span class="fas fa-clock"></span>
+                                    5h 56m
+                                </div>
+                                <div>
+                                    <span class="fas fa-table"></span>
+                                    6 lectures
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card shadow h-100">
+                            <img src="./images/courses/04.jpg" alt="Course" class="card-img-top">
+
+                            <div class="card-body">
+                                <div class="justify-content-between d-flex mb-2">
+                                    <div class="badge bg-success bg-opacity-10 text-success">Beginner</div>
+                                    <span class="far fa-heart " onclick="like(this)"></span>
+                                </div>
+
+                                <h5><a href="#" class="text-decoration-none text-black">Create a Design System in
+                                        Figma</a></h5>
+                                <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-inline text-warning">
+                                    <li class="list-inline-item">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-footer d-flex bg-transparent justify-content-between">
+                                <div>
+                                    <span class="fas fa-clock"></span>
+                                    6h 56m
+                                </div>
+                                <div>
+                                    <span class="fas fa-table"></span>
+                                    7 lectures
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container tab-pane fade" id="link2">
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card shadow h-100">
+                            <img src="./images/courses/11.jpg" alt="Course" class="card-img-top">
+
+                            <div class="card-body">
+                                <div class="justify-content-between d-flex mb-2">
+                                    <div class="badge bg-primary bg-opacity-10 text-primary">All Level</div>
+                                    <span class="far fa-heart " onclick="like(this)"></span>
+                                </div>
+
+                                <h5><a href="#" class="text-decoration-none text-black">Build Responsive Websites with
+                                        HTML</a></h5>
+                                <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-inline text-warning">
+                                    <li class="list-inline-item">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="far fa-star-half"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-footer d-flex bg-transparent justify-content-between">
+                                <div>
+                                    <span class="fas fa-clock"></span>
+                                    15h 56m
+                                </div>
+                                <div>
+                                    <span class="fas fa-table"></span>
+                                    16 lectures
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card shadow h-100">
+                            <img src="./images/courses/12.jpg" alt="Course" class="card-img-top">
+
+                            <div class="card-body">
+                                <div class="justify-content-between d-flex mb-2">
+                                    <div class="badge bg-success bg-opacity-10 text-success">Beginner</div>
+                                    <span class="far fa-heart " onclick="like(this)"></span>
+                                </div>
+
+                                <h5><a href="#" class="text-decoration-none text-black">Build Your Websites with CSS</a>
+                                </h5>
+                                <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-inline text-warning">
+                                    <li class="list-inline-item">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="far fa-star-half"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-footer d-flex bg-transparent justify-content-between">
+                                <div>
+                                    <span class="fas fa-clock"></span>
+                                    14h 56m
+                                </div>
+                                <div>
+                                    <span class="fas fa-table"></span>
+                                    15 lectures
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card shadow h-100">
+                            <img src="./images/courses/09.jpg" alt="Course" class="card-img-top">
+
+                            <div class="card-body">
+                                <div class="justify-content-between d-flex mb-2">
+                                    <div class="badge bg-primary bg-opacity-10 text-primary">All Level</div>
+                                    <span class="far fa-heart " onclick="like(this)"></span>
+                                </div>
+
+                                <h5><a href="#" class="text-decoration-none text-black">JavaScript: Full
+                                        Understanding</a></h5>
+                                <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-inline text-warning">
+                                    <li class="list-inline-item">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="far fa-star-half"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-footer d-flex bg-transparent justify-content-between">
+                                <div>
+                                    <span class="fas fa-clock"></span>
+                                    36h 56m
+                                </div>
+                                <div>
+                                    <span class="fas fa-table"></span>
+                                    37 lectures
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container tab-pane fade" id="link3">
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card shadow h-100">
+                            <img src="./images/courses/05.jpg" alt="Course" class="card-img-top">
+
+                            <div class="card-body">
+                                <div class="justify-content-between d-flex mb-2">
+                                    <div class="badge bg-success bg-opacity-10 text-success">Beginner</div>
+                                    <span class="far fa-heart " onclick="like(this)"></span>
+                                </div>
+
+                                <h5><a href="#" class="text-decoration-none text-black">The Complete Web Development in
+                                        python</a></h5>
+                                <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-inline text-warning">
+                                    <li class="list-inline-item">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="far fa-star-half"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-footer d-flex bg-transparent justify-content-between">
+                                <div>
+                                    <span class="fas fa-clock"></span>
+                                    9h 56m
+                                </div>
+                                <div>
+                                    <span class="fas fa-table"></span>
+                                    10 lectures
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card shadow h-100">
+                            <img src="./images/courses/06.jpg" alt="Course" class="card-img-top">
+
+                            <div class="card-body">
+                                <div class="justify-content-between d-flex mb-2">
+                                    <div class="badge bg-primary bg-opacity-10 text-primary">All Level</div>
+                                    <span class="far fa-heart " onclick="like(this)"></span>
+                                </div>
+
+                                <h5><a href="#" class="text-decoration-none text-black">Angular – The Complete
+                                        Guider</a></h5>
+                                <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-inline text-warning">
+                                    <li class="list-inline-item">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-footer d-flex bg-transparent justify-content-between">
+                                <div>
+                                    <span class="fas fa-clock"></span>
+                                    11h 56m
+                                </div>
+                                <div>
+                                    <span class="fas fa-table"></span>
+                                    12 lectures
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card shadow h-100">
+                            <img src="./images/courses/13.jpg" alt="Course" class="card-img-top">
+
+                            <div class="card-body">
+                                <div class="justify-content-between d-flex mb-2">
+                                    <div class="badge bg-primary bg-opacity-10 text-primary">All Level</div>
+                                    <span class="far fa-heart " onclick="like(this)"></span>
+                                </div>
+
+                                <h5><a href="#" class="text-decoration-none text-black">Learn PHP with - CMS Project</a>
+                                </h5>
+                                <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-inline text-warning">
+                                    <li class="list-inline-item">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="far fa-star-half"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-footer d-flex bg-transparent justify-content-between">
+                                <div>
+                                    <span class="fas fa-clock"></span>
+                                    24h 56m
+                                </div>
+                                <div>
+                                    <span class="fas fa-table"></span>
+                                    25 lectures
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instructor! -->
+    <div class="container mb-5" id="becomeTeacher">
+        <div
+            class="row bg-info rounded-2 bg-opacity-25 position-relative align-items-center p-5 g-4 g-lg-0 border border-info border-2">
+            <div class="col-lg-7">
+                <h3><b> Become an Instructor! </b></h3>
+                <b>Speedily say has suitable disposal add boy. On forth doubt miles of child. Exercise joy man children
+                    rejoiced. Yet uncommonly his ten who diminution astonished.</b>
+            </div>
+            <div class="col-lg-5 text-center">
+                <a href="#" class="btn border border-2 border-dark" id="instru"><b> Start Teaching Today </b></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trending courses -->
+    <div class="container mb-5" id="treand">
+        <div class="text-center mb-3">
+            <h2 class="fs-1">Our Trending Courses</h2>
+            <b>Check out most 🔥 courses in the market</b>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow h-100">
+                    <img src="./images/15.jpg" alt="Course" class="card-img-top">
+
+                    <div class="card-body">
+                        <div class="justify-content-between d-flex mb-2">
+                            <div>
+                                <div class="badge bg-primary bg-opacity-25 text-primary">Design</div>
+                                <div class="badge bg-dark">All Level</div>
+                            </div>
+                            <span class="far fa-bookmark" onclick="save(this)"></span>
+                        </div>
+
+                        <h5><a href="#" class="text-decoration-none text-black">Angular – The Complete Guide (2021
+                                Edition)</a></h5>
+                        <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <ul class="list-inline text-warning">
+                            <li class="list-inline-item">
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="far fa-star-half"></span>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <span class="fas fa-clock"></span>
+                                11h 56m
+                            </div>
+                            <div>
+                                <span class="fas fa-table"></span>
+                                12 lectures
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer d-flex bg-transparent align-items-center justify-content-between">
+                        <div class="text-success ">
+                            <h5><b>$100</b></h5>
+                        </div>
+                        <a href="#" class="bg-success bg-opacity-25 text-success p-2 rounded text-decoration-none">
+                            <span class="fas fa-shopping-cart"></span>
+                            Add to cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow h-100">
+                    <img src="./images/16.jpg" alt="Course" class="card-img-top">
+
+                    <div class="card-body">
+                        <div class="justify-content-between d-flex mb-2">
+                            <div>
+                                <div class="badge bg-primary bg-opacity-25 text-primary">Development</div>
+                                <div class="badge bg-dark">All Level</div>
+                            </div>
+                            <span class="far fa-bookmark" onclick="save(this)"></span>
+                        </div>
+
+                        <h5><a href="#" class="text-decoration-none text-black">Time Management Mastery: Do More, Stress
+                                Less</a></h5>
+                        <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <ul class="list-inline text-warning">
+                            <li class="list-inline-item">
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="far fa-star-half"></span>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <span class="fas fa-clock"></span>
+                                24h 56m
+                            </div>
+                            <div>
+                                <span class="fas fa-table"></span>
+                                25 lectures
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer d-flex bg-transparent align-items-center justify-content-between">
+                        <div class="text-success ">
+                            <h5><b>$99</b></h5>
+                        </div>
+                        <a href="#" class="bg-success bg-opacity-25 text-success p-2 rounded text-decoration-none">
+                            <span class="fas fa-shopping-cart"></span>
+                            Add to cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow h-100">
+                    <img src="./images/17.jpg" alt="Course" class="card-img-top">
+
+                    <div class="card-body">
+                        <div class="justify-content-between d-flex mb-2">
+                            <div>
+                                <div class="badge bg-primary bg-opacity-25 text-primary">Design</div>
+                                <div class="badge bg-dark">Beginner</div>
+                            </div>
+                            <span class="far fa-bookmark" onclick="save(this)"></span>
+                        </div>
+
+                        <h5><a href="#" class="text-decoration-none text-black">The complete Digital Marketing Course -
+                                8 Course in 1</a></h5>
+                        <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <ul class="list-inline text-warning">
+                            <li class="list-inline-item">
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="far fa-star-half"></span>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <span class="fas fa-clock"></span>
+                                6h 56m
+                            </div>
+                            <div>
+                                <span class="fas fa-table"></span>
+                                7 lectures
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer d-flex bg-transparent align-items-center justify-content-between">
+                        <div class="text-success ">
+                            <h5><b>$39</b></h5>
+                        </div>
+                        <a href="#" class="bg-success bg-opacity-25 text-success p-2 rounded text-decoration-none">
+                            <span class="fas fa-shopping-cart"></span>
+                            Add to cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- get certificate -->
+    <div class="container mb-5">
+        <div
+            class="row bg-secondary rounded-2 bg-opacity-25 position-relative align-items-center p-5 g-4 g-lg-0 border border-secondary border-2">
+            <div class="col-lg-7">
+                <h3><b> Get Certificate</b></h3>
+                <b>Get Free Certificate by Completing a Course and Kickstart Your Career That Certificate are Allow in
+                    many Company</b>
+            </div>
+            <div class="col-lg-5 text-center">
+                <a href="certificate.html" class="btn border border-2 border-dark" id="instru"><b> Get Certificate Today</b></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reviews -->
+    <div class="container-fluid bg-dark bg-opacity-10 pb-5" id="reviews">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-7">
+                    <div class="row g-4">
+                        <div class="col-7">
+                            <div class="shadow rounded-1 bg-white text-center p-3 mt-5">
+                                <img src="./images/avtar/04.jpg" alt="avtar1" class="rounded-circle mb-3 shadow"
+                                    style="height: 80px;">
+
+                                <div class="mb-3">
+                                    <span class="fas fa-quote-left"></span>
+                                    Moonlight newspaper up its enjoyment agreeable depending. Timed voice share led him
+                                    to widen noisy young.
+                                    <span class="fas fa-quote-right"></span>
+                                </div>
+
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star text-warning mb-2"></span>
+                                <br>
+                                <b>Nirot Sumito</b>
+                            </div>
+
+                            <div class="rounded-2 ms-auto w-50 mt-5 bg-danger text-center p-3 text-white"
+                                style="background-image: url(./images/02.png); background-size: cover;">
+                                <h5>4.3/5.0</h5>
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star-half text-warning mb-2"></span>
+
+                                <b>Based on 2555 ratings</b>
+                            </div>
+                        </div>
+                        <div class="col-5 mt-5">
+                            <div class="shadow rounded-1 bg-white text-center p-3 mt-5">
+                                <img src="./images/avtar/09.jpg" alt="avtar1" class="rounded-circle mb-3 shadow"
+                                    style="height: 80px;">
+
+                                <div class="mb-3">
+                                    <span class="fas fa-quote-left"></span>
+                                    At weddings believed laughing although the Moonlight newspaper up its enjoyment
+                                    agreeable depending. At weddings believed laughing
+                                    <span class="fas fa-quote-right"></span>
+                                </div>
+
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star text-warning"></span>
+                                <span class="fas fa-star-half text-warning mb-2"></span>
+                                <br>
+                                <b>Nirot Sumito</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center">
+                    <h1><b>Some valuable feedback from our students</b></h1>
+                    <p class="mt-3 mb-3">Supposing so be resolving breakfast am or perfectly. It drew a hill from me.
+                        Valley by oh twenty direct me so. Departure defective arranging rapturous did believe him all
+                        had supported. Family months lasted simple set nature vulgar him. Picture for attempt joy
+                        excited ten carried manners talking how.</p>
+                    <a href="#" class="btn btn-danger"><b>View Reviews</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid mt-0 pb-3 pt-5" id="footer">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md">
+                    <div class="mb-4">
+                        <a href="index.html" class="navbar-brand text-danger">
+                            <h3>
+                                <span class="fas fa-graduation-cap"></span>
+                                <b>Eduport</b>
+                            </h3>
+                        </a>
+                    </div>
+                    <b class="text-secondary">Eduport education theme, built specifically for the education centers
+                        which is dedicated to teaching and involve learners.</b>
+
+                    <ul class="mt-3 g-4 list-inline">
+                        <li class="list-inline-item"><a href="#"><span class="fab fa-facebook fs-3 text-dark"></span></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#"><span class="fab fa-instagram fs-3 text-dark"></span></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#"><span class="fab fa-twitter fs-3 text-dark"></span></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#"><span class="fab fa-linkedin-in fs-3 text-dark"></span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5><b>Company</b></h5>
+                    <b>
+                        <ul class="flex-column nav">
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> About us </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Contact us </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Blogs </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Career </a>
+                        </ul>
+                    </b>
+                </div>
+                <div class="col">
+                    <h5><b>Teaching</b></h5>
+                    <b>
+                        <ul class="flex-column nav">
+                            <a href="index.html#becomeTeacher" class="text-decoration-none text-secondary mt-3"> Become a teacher </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> How to guide </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Terms & Conditions </a>
+                        </ul>
+                    </b>
+                </div>
+                <div class="col-xl">
+                    <h5><b>Contact</b></h5>
+                    <b>
+                        <ul class="flex-column nav">
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Toll free : +1234 567 890 </a>
+                            <a href="#" class="text-decoration-none text-secondary mt-3"> Email : example@gmail.com </a>
+                            <div class="text-center m-3">
+                                <a href="#">
+                                    <img src="./images/google-play.svg" width="110px" alt="google-play">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/app-store.svg" width="110px" alt="app-store">
+                                </a>
+                            </div>
+                        </ul>
+                    </b>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="mt-3 text-center">
+                <p>Copyrights ©2022 Eduport. All rights reserved.</p>
+                <div>
+                    <a href="#" class="text-decoration-none ">
+                        Terms of use</a>
+                    <a href="#" class="text-decoration-none ms-3">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+#imgDiv {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 100% 50% 100% / 100% 50% 100% 50%;
+}
+
+
+#lDiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.btn-danger-soft {
+    background-color: #d6293e1a;
+    color:#d6293e;
+}
+
+.btn-danger-soft:hover {
+    background-color: #d6293e;
+    color:white;
+}
+
+#instru:hover {
+    background-color: black;
+    color: white;
+}
+
+#form {
+    display: block;
+}
+
+#certificate {
+    display: none;
+}
+
+#btnCerti {
+    display: none;
+}
